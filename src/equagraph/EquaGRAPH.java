@@ -1,4 +1,3 @@
-Updates to keyboard shortcuts … On Thursday, August 1, 2024, Drive keyboard shortcuts will be updated to give you first-letters navigation.Learn more
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -1264,6 +1263,8 @@ public class EquaGRAPH {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        GraphWindow graphwindow=new GraphWindow() ;
+        graphwindow.show(true);
         // TODO code application logic here
         Toolkit tool_kit=Toolkit.getDefaultToolkit() ;
         userScreenHeight=tool_kit.getScreenSize().height ;
